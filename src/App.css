@@ -1,0 +1,226 @@
+nav {display: flex;
+justify-content: space-between;
+align-items: center;}
+ul{display: flex;
+gap: 70px;
+align-items: center;}
+nav h2{filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+color: #FFF;
+font-weight: 900;
+font-size: 22px;}
+li{color: #FFF;
+font-family: sans-serif;
+font-size: 16px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: -0.129px;}
+.contact{padding: 10px 16px;
+ color: #24303E;
+font-family: Fraunces 9pt Soft;
+font-size: 15px;
+font-style: normal;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.107px;
+text-transform: uppercase;
+border-radius: 28px;
+background: #FFF;
+} 
+.contact:hover{
+color: white;
+background: black;}
+.App {
+text-align: center;
+}
+.creatives-title{ 
+font-family: 'Fraunces' ,'seriff'; 
+padding:20px;
+ font-size: 50px;
+font-weight: 900;
+ margin-top: 60px;
+ letter-spacing: 8.75px; 
+ color: antiquewhite; }
+.hero{background-image:url(images/image-header.jpg) ;
+position:relative;
+height: 100vh;
+padding: 2.5rem;
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+} 
+.Learnmore::after {content: '';
+width: 14%;
+background: yellow;
+height: 3px;
+display: block;
+align-items: flex-start;
+margin: 0;
+transition: 0.5s;}
+
+.Learnmore:hover::after{
+width: 1%;
+}
+ 
+.mero{background-image:url(images/image-graphic-design.jpg) ;
+position:relative;
+height: 80vh;
+ padding: 2.5rem;
+ background-position: center;
+ background-size: cover;}
+
+ .tero{background-image: url(images/image-photography.jpg);
+ position:relative;
+height: 80vh;
+padding: 2.5rem;
+background-position: center;
+background-size: cover;}
+
+ .dropdown{ height: 100px; 
+width: 40px; 
+text-align: center; 
+margin:20px auto 0 }
+.grid-img{display: grid;
+grid-template-columns:repeat(auto-fit,minmax(200px,4fr)) }
+
+footer{text-align: center;
+ padding: 45px 0;
+background-color:rgba(144, 212, 198, 1);
+}
+.footer-heading{
+font-weight: 900;
+margin-bottom: 10px;
+font-size: 20px;
+margin-bottom: 20px;
+color: rgba(44, 117, 102, 1);
+}
+.footer-links{display: flex;
+justify-content: center;
+
+}
+.footer-link a{margin: 15px;
+font-size: 16px;
+font-weight: 700;
+color: rgba(69, 141, 126, 1);
+
+} .footer-link a::after{content: '';
+ width: 0;
+ background-color: rgba(69, 141, 126, 1);
+ height: 1px;
+ display: block;
+ align-items: flex-start;
+ margin: auto;
+ transition: 0.5s;
+}
+
+.footer-link a:hover::after{
+ width: 80%;
+}
+ 
+ 
+.footer-icon{ margin:0 10px;
+ }
+ 
+ .img-moblie{display: none;}
+ .ho{display: flex;
+;}
+
+ @media (max-width:800px) {
+ li{display: none;}
+ .contact{display: none;}
+ .img-moblie{display: flex;
+height: 30px;
+width: 30px;}
+ 
+ 
+nav{position:relative ;
+ z-index: 1;;}
+.card{background-color: white;
+ padding: 20px 100px;
+ border: 1px solid yellow;
+ border-radius: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: flex-end;
+position: fixed;
+/* left: 380px; */
+margin-left: 340px;
+transition: 0.01ms;
+}ul{display: block;
+}
+
+.section{
+color: #808397;
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 25px;
+letter-spacing: -0.143px;
+margin: 30px auto;}
+.contacts{padding: 10px;
+border-radius: 16px;
+background-color:#FBD600;
+ color: #24303E;
+ border: none;
+font-size: 18px;
+font-weight: 700;
+line-height: 25px;
+letter-spacing: -0.107px;
+text-transform: uppercase;
+
+}
+ 
+
+
+.mero{
+position:relative;
+height: 50vh;
+padding: 2.5rem;
+background-position: center;
+background-size: cover;}
+
+.tero{
+position:relative;
+ height: 50vh;
+padding: 0;
+background-position: center;
+background-size: cover;}
+ 
+.grid-img{display: grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,4fr)) }
+
+.Learnmore::after {content: '';
+margin: auto;
+
+}
+}
+
+@media (max-width:650px) {
+.hero{background-image:url(images/image-header.jpg) ;
+position:relative;
+height: 80vh;
+
+} 
+.ho{display: flex;
+flex-direction: column;
+;} 
+
+.creatives-title{ 
+font-family: 'Fraunces' ,'seriff'; 
+padding:20px;
+ font-size: 30px;
+ margin-top: 60px;
+ }
+
+ .card{
+ margin: 10px auto;
+
+}
+
+.Learnmore::after {content: '';
+margin: auto;
+ }
+}
+
+
